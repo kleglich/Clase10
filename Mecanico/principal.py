@@ -1,4 +1,3 @@
-
 from modelo_mecanico import Carro, MaquinaRobotica, Mecanico
 
 marca = input("Ingrese la marca del carro: ")
@@ -34,4 +33,5 @@ while True:
             break
         case _:
             print("Opción no válida, intenta de nuevo.")
+
 
