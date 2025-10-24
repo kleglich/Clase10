@@ -1,4 +1,3 @@
-
 class Carro:
     def __init__(self, marca, modelo, color):
         self.marca = marca
@@ -69,4 +68,5 @@ class Mecanico:
 
     def entregar_carro(self, carro):
         print(f"{self.nombre} entrega el carro {carro.marca} {carro.modelo} al cliente.")
+
 
